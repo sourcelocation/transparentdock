@@ -1,0 +1,11 @@
+Package: ovh.exerhythm.transparentdock
+Name: transparentdock
+Version: 1.0
+Architecture: iphoneos-arm
+Description: An open-source tweak to hide the Dock background.
+Maintainer: ExeRhythm
+Author: ExeRhythm
+Section: Tweaks
+Depends: ${ORION}, firmware (>= 12.2)
+Depiction: https://www.exerhythm.ovh/repo/depictions/web/?p=ovh.exerhythm.transparentdock
+SileoDepiction: https://www.exerhythm.ovh/repo/depictions/native/ovh.exerhythm.transparentdock/depiction.json

@@ -1,0 +1,4 @@
+module transparentdockC {
+    umbrella "."
+    export *
+}
