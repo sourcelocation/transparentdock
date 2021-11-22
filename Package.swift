@@ -65,23 +65,23 @@ let swiftFlags: [String] = libFlags + [
 ]
 
 let package = Package(
-    name: "transparentdock",
+    name: "TransparentDock",
     platforms: [.iOS(deploymentTarget)],
     products: [
         .library(
-            name: "transparentdock",
-            targets: ["transparentdock"]
+            name: "TransparentDock",
+            targets: ["TransparentDock"]
         ),
     ],
     targets: [
         .target(
-            name: "transparentdockC",
+            name: "TransparentDockC",
             cSettings: [.unsafeFlags(cFlags)],
             cxxSettings: [.unsafeFlags(cxxFlags)]
         ),
         .target(
-            name: "transparentdock",
-            dependencies: ["transparentdockC"],
+            name: "TransparentDock",
+            dependencies: ["TransparentDockC"],
             swiftSettings: [.unsafeFlags(swiftFlags)]
         ),
     ]

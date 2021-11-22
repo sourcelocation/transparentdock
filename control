@@ -1,5 +1,5 @@
 Package: ovh.exerhythm.transparentdock
-Name: transparentdock
+Name: TransparentDock
 Version: 1.0
 Architecture: iphoneos-arm
 Description: An open-source tweak to hide the Dock background.

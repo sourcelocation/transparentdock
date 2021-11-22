@@ -1,6 +1,6 @@
 import Orion
 import UIKit
-import transparentdockC
+import TransparentDockC
 
 
 class DockHook: ClassHook<UIView> {
