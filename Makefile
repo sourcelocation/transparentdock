@@ -9,5 +9,6 @@ TWEAK_NAME = TransparentDock
 TransparentDock_FILES = $(shell find Sources/TransparentDock -name '*.swift') $(shell find Sources/TransparentDockC -name '*.m' -o -name '*.c' -o -name '*.mm' -o -name '*.cpp')
 TransparentDock_SWIFTFLAGS = -ISources/TransparentDockC/include
 TransparentDock_CFLAGS = -fobjc-arc -ISources/TransparentDockC/include
+#TransparentDock_ORION_DEFAULT_BACKEND = Internal
 
 include $(THEOS_MAKE_PATH)/tweak.mk
